@@ -8,7 +8,7 @@ test.describe("Launch application with correct creds", () => {
         await loginPage.verifyLoginSuccesful()
     })
 
-    test.only("Incorrect login", async({loginPage}) =>{
+    test("Incorrect login", async({loginPage}) =>{
         await loginPage.launchApplication();
         await loginPage.failedLogin();
        await loginPage.getErrorMessage();
