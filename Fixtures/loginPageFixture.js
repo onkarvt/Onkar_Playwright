@@ -1,5 +1,5 @@
 import { test as base, expect } from '@playwright/test';
-import { LoginPage } from '../Pages/loginPage.js'
+import { LoginPage } from '../pages/loginPage.js'
 
 export const test = base.extend({
     loginPage: async ({ page }, use) => {
