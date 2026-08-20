@@ -1,5 +1,5 @@
 import {test, expect} from "../Fixtures/loginPageFixture.js"
-import { LoginPage } from "../Pages/loginPage.js"
+import { LoginPage } from "../pages/loginPage.js"
 
 test.describe("Launch application with correct creds", () => {
     test ("Correct Login", async({loginPage}) => {
